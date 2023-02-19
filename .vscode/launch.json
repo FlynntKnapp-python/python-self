@@ -5,10 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: people.py",
+            "name": "Python: people_with_comments.py",
             "type": "python",
             "request": "launch",
-            "program": "./people.py",
+            "program": "./people_with_comments.py",
             "console": "integratedTerminal",
             "justMyCode": true
         }

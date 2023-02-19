@@ -23,3 +23,8 @@
   * What is `__main__`?
   * What is `Person`?
   * What is `0x0000023C068F9990`?
+
+## Possible Improvements
+
+* Is `user_provided_name` a good argument identifier?
+  * Does is convey what it is better than using only `name`?
