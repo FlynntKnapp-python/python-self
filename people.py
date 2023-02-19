@@ -11,6 +11,7 @@ class Person:
         attribute to the argument provided as `user_provided_name`.
         """
         self.name = user_provided_name
+        pass
 
     def print_self(self):
         """

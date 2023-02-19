@@ -9,7 +9,41 @@
     * Demonstrate how to check the attributes of `self`
     * What is `self`
 
+## Examples
+
+* Example without comments:
+  * [`people.py`](./people.py)
+* Example with comments:
+  * [`people_with_comments.py`](./people_with_comments.py)
+* Example with print statements:
+  * [`people_with_print_statements.py`](./people_with_print_statements.py)
+
+## Code with DEBUG Images
+
+* `self` before assignment of `name` attribute:
+  * Code snippet:
+
+    ```python
+    ```
+
+* Images:
+
+![self before assignment of name attribute](./local_things\self_before_name_assignment.png)
+![self_after_assignment_of_name_attribute](./local_things\self_after_name_assignment.png)
+
 ## Resources
+
+### Keywords
+
+* `def`
+* `class`
+* [`pass` - www.w3schools.com](https://www.w3schools.com/python/ref_keyword_pass.asp)
+
+### Methods
+
+* [`isinstance()` - www.w3schools.com](https://www.w3schools.com/python/ref_func_isinstance.asp)
+* [`__init__()` - www.w3schools.com](https://www.w3schools.com/python/gloss_python_class_init.asp)
+* `__str__()`
 
 ## Concepts
 

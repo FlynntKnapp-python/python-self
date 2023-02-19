@@ -8,17 +8,21 @@ class Person:
     """
     def __init__(self, user_provided_name):
         """
-        Create an instance of `Person`. Set the `Person` instance `name` attribute to the
-        argument provided as `user_provided_name`.
+        Create an instance of `Person`. Set the `Person` instance `name`
+        attribute to the argument provided as `user_provided_name`.
         """
-        self.name = user_provided_name # Put a breakpoint here and check the value of `self`.
-        pass
+        print('self: ', self)
+        print('Person: ', Person)
+        print("user_provided_name: ", user_provided_name)
+        print('isinstance(self, Person): ', isinstance(self, Person))
+        self.name = user_provided_name
+        print('self: ', self)
 
     def print_self(self):
         """
         Print the `Person` instance. `self` IS the current instance of `Person`.
         """
-        print(self) # Put a breakpoint here and check the value of `self`.
+        print('self: ', self)
 
     # We are not defining __str__ here, so the default __str__ will be used.
     # def __str__(self):
