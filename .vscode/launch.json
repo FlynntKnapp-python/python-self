@@ -11,6 +11,14 @@
             "program": "./people_with_comments.py",
             "console": "integratedTerminal",
             "justMyCode": true
-        }
+        },
+        {
+            "name": "Python: people.py",
+            "type": "python",
+            "request": "launch",
+            "program": "./people.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
     ]
 }
