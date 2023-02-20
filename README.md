@@ -20,16 +20,15 @@
 
 ## Code with DEBUG Images
 
-* `self` before assignment of `name` attribute:
-  * Code snippet:
-
-    ```python
-    ```
-
 * Images:
 
-![self before assignment of name attribute](./local_things\self_before_name_assignment.png)
-![self_after_assignment_of_name_attribute](./local_things\self_after_name_assignment.png)
+  ![Before name assignment](./local_things\before_name_assignment.png)
+
+  ![Degub view before assignment of name attribute](./local_things\self_before_name_assignment.png)
+
+  ![After name assignment](./local_things\after_name_assignment.png)
+
+  ![Degub view after assignment of name attribute](./local_things\self_after_name_assignment.png)
 
 ## Resources
 

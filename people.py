@@ -7,7 +7,7 @@ class Person:
     """
     def __init__(self, user_provided_name):
         """
-        Create an instance of `Person`. Set the `Person` instance `name`
+        When a new `Person` is created, set the `Person` instance `name`
         attribute to the argument provided as `user_provided_name`.
         """
         self.name = user_provided_name
