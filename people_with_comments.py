@@ -11,6 +11,13 @@ class Person:
         Create an instance of `Person`. Set the `Person` instance `name` attribute to the
         argument provided as `user_provided_name`.
         """
+        # Every variable, method, attribute, etc. in Python is an object
+            # and has to be defined somewhere.
+        # The `self` variable is a reference to the current instance of
+            # the class.
+        # We are defining a `name` attribute on the current instance of
+            # `Person` and setting it to the value of the `user_provided_name`
+            # argument.
         self.name = user_provided_name # Put a breakpoint here and check the value of `self`.
         pass
 
