@@ -22,13 +22,13 @@
 
 * Images:
 
-  ![Before name assignment](./local_things\before_name_assignment.png)
+  ![Debug view of self, and python class __init__ code before name assignment](https://user-images.githubusercontent.com/47562501/220025404-3898066d-4433-4e3e-80e1-1b623a5c5a46.png)
 
-  ![Degub view before assignment of name attribute](./local_things\self_before_name_assignment.png)
+  ![Debug view of self before name assignment](https://user-images.githubusercontent.com/47562501/220025796-e2a9c8e5-1bb8-44fa-9417-4b93d9b17c5c.png)
 
-  ![After name assignment](./local_things\after_name_assignment.png)
+  ![Debug view of self, and python class __init__ code after name assignment](https://user-images.githubusercontent.com/47562501/220026242-7bacecf3-c905-4953-ad16-782f5e19e288.png)
 
-  ![Degub view after assignment of name attribute](./local_things\self_after_name_assignment.png)
+  ![Debug view of self after name assignment](https://user-images.githubusercontent.com/47562501/220026638-9e0f40c2-27a4-41c8-8a1a-9249054192f3.png)
 
 ## Resources
 
