@@ -21,6 +21,7 @@ class Person:
         """
         # Every variable, method, attribute, etc. in Python is an object
             # and has to be defined somewhere.
+        # `this_specific_instance` is a variable that is defined in the scope of the `__init__` method.
         # The `this_specific_instance` variable is a reference to the
             # current instance (object) of the class.
         # We are defining a `name` attribute on the current instance of
@@ -33,11 +34,13 @@ class Person:
         """
         Print the `Person` instance. `still_this_specific_instance` IS the current instance of `Person`.
         """
-        print(still_this_specific_instance) # Put a breakpoint here and check the value of `this_specific_instance`.
+        # `still_this_specific_instance` is a variable that is defined in the scope of the `print_self` method.
+        # It has the same memory location as `this_specific_instance` in the `__init__` method.
+        print(still_this_specific_instance) # Put a breakpoint here and check the value of `still_this_specific_instance`.
 
     # We are not defining __str__ here, so the default __str__ will be used.
-    # def __str__(this_specific_instance):
-    #     return this_specific_instance.name
+    # def __str__(self):
+    #     return self.name
 
 # 2. Create an instance of `Person` with `name` attribute of `MyName`:
 me = Person("MyName")
