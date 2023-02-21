@@ -29,11 +29,11 @@ class Person:
         this_specific_instance.name = user_provided_name # Put a breakpoint here and check the value of `this_specific_instance`.
         pass
 
-    def print_self(this_specific_instance):
+    def print_self(still_this_specific_instance):
         """
-        Print the `Person` instance. `this_specific_instance` IS the current instance of `Person`.
+        Print the `Person` instance. `still_this_specific_instance` IS the current instance of `Person`.
         """
-        print(this_specific_instance) # Put a breakpoint here and check the value of `this_specific_instance`.
+        print(still_this_specific_instance) # Put a breakpoint here and check the value of `this_specific_instance`.
 
     # We are not defining __str__ here, so the default __str__ will be used.
     # def __str__(this_specific_instance):
