@@ -2,6 +2,34 @@
 
 ## New and/or Interesting Concepts
 
+### `ImportError: attempted relative import with no known parent package`
+
+#### The Error
+
+* [`test_people.py`](../test_people.py)
+
+  ```python
+  from . import people
+  ```
+
+* `ImportError`
+
+  ```bash
+  test_people.py:1: in <module>
+      from . import people
+  E   ImportError: attempted relative import with no known parent package
+  ```
+
+* I suspect that we need to set the directory as a package, include a `__init__.py` file, and then import the module.
+
+#### The Solution
+
+* [`test_people.py`](../test_people.py)
+
+  ```python
+  import people
+  ```
+
 ### `launch.json`
 
 * Current File:
