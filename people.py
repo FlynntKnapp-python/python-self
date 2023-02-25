@@ -20,5 +20,9 @@ class Person:
         """
         print(self)
 
-me = Person("MyName")
-me.print_self()
+def main():
+    me = Person("MyName")
+    me.print_self()
+
+if __name__ == "__main__":
+    main()
