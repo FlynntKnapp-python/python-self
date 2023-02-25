@@ -10,7 +10,7 @@
 
 * Debug panel variables:
 
-  ![debug_panel_without_main_conditional](https://user-images.githubusercontent.com/47562501/221345541-dbf8a702-4c38-4fed-ab7c-78d415914c27.png)
+  ![debug_panel_without_main_conditional](https://user-images.githubusercontent.com/47562501/221345851-7b512872-d2d2-4131-8227-9913b842c5ca.png)
 
 * [`people.py`](../people.py):
 
@@ -25,7 +25,7 @@
 
 * Debug panel variables:
 
-  ![debug_panel_with_main_conditional](https://user-images.githubusercontent.com/47562501/221345552-dfe9cadc-e3df-4d7b-87ed-49856290ea67.png)
+  ![debug_panel_with_main_conditional](https://user-images.githubusercontent.com/47562501/221345859-a25da11a-dbcc-4259-b78b-ffdd54de3593.png)
 
 * [`people.py`](../people.py):
 
