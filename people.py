@@ -20,9 +20,15 @@ class Person:
         """
         print(self)
 
+# Define a `main` function to run some code in this file. TODO: Decide better verbiage.
 def main():
+    # Create a new `Person` instance with an argument of `"MyName"` and
+    # assign it to the variable `me`.
     me = Person("MyName")
+    # Call the `print_self` method on the `me` instance.
     me.print_self()
 
+# If this file is run directly:
 if __name__ == "__main__":
+    # Run the `main` function, defined above.
     main()
