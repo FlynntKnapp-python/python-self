@@ -20,7 +20,7 @@
   E   ImportError: attempted relative import with no known parent package
   ```
 
-* I suspect that we need to set the directory as a package, include a `__init__.py` file, and then import the module.
+* I suspect that we would need to set the directory as a package, include a `__init__.py` file, and then import the module.
 
 #### The Solution
 
