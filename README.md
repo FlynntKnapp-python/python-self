@@ -2,10 +2,6 @@
 
 ## Commands for Testing
 
-```
-python -m unittest test_inheritance_with_polymorphism.py
-```
-
 ## Purpose
 
 * Demonstrate what `self` is in a `class`
